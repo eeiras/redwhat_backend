@@ -80,7 +80,7 @@ objects:
             value: admin
           - name: KEYCLOAK_PASSWORD
             value: ${KEYCLOAK_PASSWORD}
-          image: 'docker.io/jboss/keycloak-openshift:3.4.0.Final'
+          image: 'quay.io/keycloak/keycloak:11.0.3'
           imagePullPolicy: IfNotPresent
           name: keycloak
           ports:
